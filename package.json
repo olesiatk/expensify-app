@@ -1,6 +1,10 @@
 {
+  "npm": "8.1.2",
   "name": "expensify",
   "version": "1.0.0",
+  "engines": {
+    "node": "16.x"
+  },
   "main": "index.js",
   "scripts": {
     "build": "webpack",
