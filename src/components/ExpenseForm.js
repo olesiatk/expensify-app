@@ -55,7 +55,6 @@ export default class ExpenseForm extends React.Component {
     }
 
     render() {
-        console.log('this.state.createdAt', this.state.createdAt.valueOf())
         return (
             <div>
                 {this.state.error && <p>{this.state.error}</p>} 

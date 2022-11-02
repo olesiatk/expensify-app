@@ -9,6 +9,7 @@ import getVisibleExpenses from './selectors/expenses'
 import 'normalize.css/normalize.css'
 import './styles/styles.scss'
 import 'react-dates/lib/css/_datepicker.css'
+import './firebase/firebase'
 
 const store = configureStore()
 
@@ -22,8 +23,8 @@ setTimeout(() => {
 }, 3000)
 
 const state = store.getState()
-const visibleExpenses = getVisibleExpenses(state.expenses, state.filters)
-console.log(visibleExpenses)
+// const visibleExpenses = getVisibleExpenses(state.expenses, state.filters)
+// console.log(visibleExpenses)
 
 const root = createRoot(document.getElementById('app'))
 
