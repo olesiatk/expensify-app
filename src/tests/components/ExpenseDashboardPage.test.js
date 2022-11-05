@@ -1,9 +1,9 @@
 import React from 'react'
 import ReactShallowRenderer from 'react-test-renderer/shallow'
-import Header from '../../components/Header'
+import ExpenseDashboardPage from '../../components/ExpenseDashboardPage'
 
 test('should render Header correctly', () => {
     const renderer = new ReactShallowRenderer();
-    renderer.render(<Header />);
+    renderer.render(<ExpenseDashboardPage/>);
     expect(renderer.getRenderOutput()).toMatchSnapshot();
 })

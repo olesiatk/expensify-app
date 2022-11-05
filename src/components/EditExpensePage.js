@@ -9,8 +9,6 @@ const EditExpensePage = (props) => {
     const currentExpense = props.expenses.find((expense) => expense.id === params.id)
     const navigation = useNavigate()
 
-    console.log('currentExpense', currentExpense)
-
     return (
         <div>
             <ExpenseForm
