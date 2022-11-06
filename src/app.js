@@ -12,7 +12,6 @@ import './firebase/firebase'
 import { getAuth, onAuthStateChanged } from "firebase/auth";
 
 const store = configureStore()
-
 const root = createRoot(document.getElementById('app'))
 
 let hasRendered = false
