@@ -13,7 +13,7 @@
     "dev-server": "webpack-dev-server",
     "test": "cross-env NODE_ENV=test jest",
     "start": "node server/server.js",
-    "heroku-postbuild": "npm run build:dev"
+    "heroku-postbuild": "npm run build:prod"
   },
   "author": "Olesia Kazanivska",
   "license": "MIT",
