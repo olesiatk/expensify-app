@@ -1,11 +1,5 @@
-# Git Commands
+# Expensify-app-olesia.herokuapp.com
 
-git init - Create a new git repo
+It's time to get your expenses under control
 
-git status - View the changes to your project code
-
-git add - Add files to staging area
-
-git commit - Creates a new commit with files from staging area
-
-git log - View recent commits
+Try on  ![Demo Site](https://expensify-app-olesia.herokuapp.com/)
